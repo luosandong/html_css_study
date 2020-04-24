@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li {
+            width: 300px;
+            height: 300px;
+            display: block;
+            position: relative;
+            float: left;
+            border: solid 1px tomato;
+            margin-left: -1px;
+        }
+
+        /* 加上这个的目的是防止位置被前一个li占用
+        ul li:hover {
+            
+            position: relative;
+            border: solid 1px green;
+        } */
+
+        ul li:hover {
+            z-index: 1;
+            border: solid 1px green;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+
+</html>

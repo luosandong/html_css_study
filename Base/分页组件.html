@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .box a {
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            text-decoration: none;
+            display: inline-block;
+            color: #ccc;
+            border: 1px solid #ccc;
+
+
+        }
+
+        .box .prev,
+        .box .last {
+            width: 100px;
+        }
+
+        .box .current,
+        .box .elips {
+            border: 0;
+        }
+
+        .box input {
+            height: 32px;
+            width: 45px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        .box button {
+            height: 32px;
+            width: 55px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <a href="#" class="prev">&lt;&lt;上一页</a>
+        <a href="#">1</a>
+        <a href="#" class="current">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#" class="elips">...</a>
+        <a href="#" class="last">下一页&gt;&gt;</a>
+        跳转到
+        <input type="text">
+        页
+        <button>Go...</button>
+    </div>
+</body>
+
+</html>

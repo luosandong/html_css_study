@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模仿京东价格标签</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 220px;
+            height: 32px;
+            line-height: 32px;
+            border: 1px solid red;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
+        .box span {
+            width: 120px;
+            font-size: 14px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .box .miaosha {
+            position: relative;
+            float: left;
+            font-weight: 700;
+            color: #fff;
+            background-color: red;
+        }
+
+        .box .old-price {
+            color: gray;
+            width: 100px;
+            text-decoration: line-through;
+
+        }
+
+        .sanjiao {
+            width: 0;
+            height: 0;
+            position: absolute;
+            right: 0;
+            border-color: transparent #fff transparent transparent;
+            border-style: solid;
+            border-width: 32px 8px 0 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <span class="miaosha">
+            <i class="sanjiao"></i>
+            ￥1980
+        </span>
+        <span class="old-price">
+
+            ￥5689
+        </span>
+    </div>
+</body>
+
+</html>
