@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+div,
+li {
+    font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体";
+}
+
+.container {
+    margin: 0 auto;
+    width: 1306px;
+}
+
+.header {
+    background-color: #2A5ABE;
+    height: 50px;
+    line-height: 50px;
+}
+
+.header .logo {
+    float: left;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.header ul li {
+    float: left;
+
+}
+
+.header ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.header ul li a:hover {
+    background-color: #1D3F85;
+}
+
+.header .search {
+    float: right;
+    width: 270px;
+    height: 28px;
+}
+
+.header .search input,
+.header .search button {
+    height: 29px;
+    border: 1px solid #fff;
+}
+
+.header .search button {
+    width: 83px;
+    height: 30px;
+    padding: 0 5px;
+}
+
+.text {
+    padding-left: 10px;
+}
+
+.banner {
+    margin: 10px auto;
+    height: 133px;
+    line-height: 133px;
+    color: #F92741;
+    text-align: center;
+    font-size: 72px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, .3);
+    text-shadow: 6px 2px 4px rgba(249, 39, 65, .3);
+
+}
+
+.remark {
+    margin: 10px auto;
+    height: 30px;
+    line-height: 30px;
+    color: #444;
+    /* background-color: #fff; */
+}
+
+.remark h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.remark h4 em {
+    color: red;
+}
+
+.remark h4 a {
+    color: #444;
+}
+
+.remark .result {
+    float: left;
+    /* padding-left: 10px; */
+}
+
+.remark .more {
+    float: right;
+    /* padding-right: 10px; */
+}
+
+/* 商品列表区 */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.goods {
+    margin-top: 10px;
+    border: 1px solid transparent;
+}
+
+.goods .box {
+    border: 1px solid transparent;
+    margin-top: 0px;
+}
+
+.goods li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 286px;
+    height: 268px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(6, 6, 6, 0.2);
+}
+
+.goods li h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+
+.goods li img {
+    width: 280px;
+}
+
+.goods li h4 a {
+    color: #444;
+}
+
+.goods li h4 a:hover {
+    color: sienna;
+}

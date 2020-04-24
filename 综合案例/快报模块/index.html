@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>快报模块</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            font-size: 12px;
+            font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体";
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .box {
+            width: 300px;
+            height: 200px;
+            margin: 50px auto;
+            border: 1px solid #CCCCCC;
+        }
+
+        .box h3 {
+            border-bottom: 1px dotted #CCCCCC;
+            line-height: 32px;
+            height: 32px;
+            /* 这里不会撑开盒子，因为没指定宽度， */
+            padding-left: 20px;
+            color: #333;
+            font-size: 14px;
+            /* 去掉加粗 */
+            font-weight: 400;
+        }
+
+        .box ul {
+            margin-top: 7px;
+        }
+
+        .box li {
+            /* 去掉li前面小圆点 */
+            list-style: none;
+            line-height: 23px;
+            padding-left: 20px;
+        }
+
+        .box li:hover {
+            background-color: #F2F2F2;
+        }
+
+        .box li a {
+            color: #666;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h3>品油购快报</h3>
+        <!-- alt+shift 按住 并使用鼠标可以批量操作 -->
+        <ul>
+            <li><a href="#">稳定无线连接</a></li>
+            <li><a href="#">LHDC蓝牙解码高清音质</a></li>
+            <li><a href="#">有效降低通话时环境噪音</a></li>
+            <li><a href="#">小米真无线蓝牙耳机 Air 2</a></li>
+            <li><a href="#">信用卡分期享24期免息</a></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
